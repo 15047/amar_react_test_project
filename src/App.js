@@ -42,7 +42,7 @@ class App extends React.Component {
 			<div>
 				Hello World
 				<h1> This is a test Project </h1>
-				<AppBarExampleIcon />
+				//<AppBarExampleIcon />
 				<DataInput contacts={this.props.contacts} onSubmitDo={this._addToContacts.bind(this)}/>
 				<ContactsList contacts={this.props.contacts} />
 			</div>
